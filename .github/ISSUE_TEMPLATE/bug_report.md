@@ -7,22 +7,32 @@ assignees: ''
 
 ---
 
-## READ BEFORE OPENING ISSUES
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-All bug reports require you to **USE CANARY BUILDS**. Please include the version name and version code in the bug report.
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-If you experience a bootloop, attach a `dmesg` (kernel logs) when the device refuse to boot. This may very likely require a custom kernel on some devices as `last_kmsg` or `pstore ramoops` are usually not enabled by default. In addition, please also upload the result of `cat /proc/mounts` when your device is working correctly **WITHOUT ROOT**.
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-If you experience issues during installation, in recovery, upload the recovery logs, or in Magisk Manager, upload the install logs. Please also upload the `boot.img` or `recovery.img` that you are using for patching.
+**Screenshots**
+If applicable, add screenshots to help explain your problem.
 
-If you experience a crash of Magisk Manager, dump the full `logcat` **when the crash happens**. **DO NOT** upload `magisk.log`.
+**Desktop (please complete the following information):**
+ - OS: [e.g. iOS]
+ - Browser [e.g. chrome, safari]
+ - Version [e.g. 22]
 
-If you experience other issues related to Magisk, upload `magisk.log`, and preferably also include a boot `logcat` (start dumping `logcat` when the device boots up)
+**Smartphone (please complete the following information):**
+ - Device: [e.g. iPhone6]
+ - OS: [e.g. iOS8.1]
+ - Browser [e.g. stock browser, safari]
+ - Version [e.g. 22]
 
-**DO NOT** open issues regarding root detection.
-
-**DO NOT** ask for instructions.
-
-**DO NOT** report issues if you have any modules installed.
-
-Without following the rules above, your issue will be closed without explanation.
+**Additional context**
+Add any other context about the problem here.
